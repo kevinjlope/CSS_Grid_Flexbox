@@ -1,0 +1,9 @@
+.contenido-principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.entrada{
+    flex: 0 1 calc(50% - 1rem);
+}
