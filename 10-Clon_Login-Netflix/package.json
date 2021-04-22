@@ -1,0 +1,24 @@
+{
+  "name": "10-clon_login-netflix",
+  "version": "1.0.0",
+  "description": "Proyecto Netflix login con flexbox, gulp y sass",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinjlope/CSS_Grid_Flexbox.git"
+  },
+  "author": "Kevin Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinjlope/CSS_Grid_Flexbox/issues"
+  },
+  "homepage": "https://github.com/kevinjlope/CSS_Grid_Flexbox#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.1.0"
+  }
+}
