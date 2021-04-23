@@ -10,19 +10,19 @@
 </head>
 <body>
     <header class="side-header">
-        <img src="img/logo.svg" alt="logotipo">
+        <img src="img/logo.svg" alt="logotipo" class="logotipo">
     </header>
 
     <main class="formulario-login contenedor">
         <form action="#" >
             <legend>Iniciar sesión</legend>
             <label for="usuario" class="campo">
+                <input type="text" id="usuario" >
                 <span>Email o numero de telefono</span>
-                <input type="text" id="usuario" placeholder="Email o numero de teléfono">
             </label>
             <label for="password" class="campo">
+                <input type="password" id="password">
                 <span>Contraseña</span>
-                <input type="password" id="password" placeholder="Contraseña">
             </label>
             <label for="submit" class="submit">
                 <input type="submit" value="Iniciar sesión">
@@ -51,8 +51,8 @@
         </form>
         <div class="contenido-inferior">
             <a href="#">Iniciar sesión con facebook</a>
-            <a href="#" class="nuevo-usuario">
-                ¿Primera vez en Netflix? <span>Suscríbete ya</span></a>
+            <p href="#" class="nuevo-usuario">
+                ¿Primera vez en Netflix? <a href="#">Suscríbete ya</a></p>
         </div>
     </main>
 
