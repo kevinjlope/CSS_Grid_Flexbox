@@ -152,3 +152,53 @@ form legend {
   font-size: 1rem;
   margin-left: .5rem;
 }
+
+.site-footer {
+  border-top: 1px solid #8C8C8C;
+  padding: 2rem 0 4rem 0;
+}
+
+@media (min-width: 768px) {
+  .site-footer {
+    border-top: unset;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 1rem 0 3rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .site-footer .contenedor {
+    max-width: 50%;
+  }
+}
+
+.site-footer .menu-footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1200px) {
+  .site-footer .menu-footer {
+    max-width: 60%;
+  }
+}
+
+.site-footer .menu-footer a {
+  font-size: .8rem;
+  flex: 0 0 auto;
+  margin-right: 2rem;
+  padding-top: .5rem;
+}
+
+.site-footer select {
+  margin-top: 2rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 1rem 3rem;
+  border: 1px solid #454545;
+  border-radius: 5px;
+  font-size: .8rem;
+  background-color: #000000;
+  color: #8C8C8C;
+}
