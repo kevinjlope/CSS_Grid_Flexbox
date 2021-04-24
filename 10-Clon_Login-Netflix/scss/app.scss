@@ -64,11 +64,25 @@ form{
     display: flex;
     position: relative;
     margin-bottom: .8rem;
+    p{
+        position: absolute;
+        right: 1rem;
+        top: .1rem;
+        text-transform: uppercase;
+        &:hover{
+            cursor: pointer;
+        }
+    }
     span{
         position: absolute;
         top: 1.1rem;
         left: 1rem;
         transition: font-size .2s ease, top .2s ease;
+        
+        &.valido{
+            font-size: .6rem;
+            top: .5rem;
+        }
     }
     input{
         flex: 1;
@@ -76,6 +90,8 @@ form{
         border: none;
         background-color: $gris;
         border-radius: $radius;
+        color: $blanco;
+
         &:focus{
             background-color: $gris3;
             outline: none;
@@ -171,4 +187,17 @@ form{
         background-color: $negro;
         color: $gris2;
     }
+}
+
+.alerta{
+    color: $secundario;
+    display: block;
+    padding: .2rem;
+    margin-bottom: .5rem;
+    font-size: .8rem;
+    text-align: center;
+}
+
+input.no-valido{
+    border-bottom: 2px solid $secundario !important;
 }
